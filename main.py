@@ -19,3 +19,4 @@ def reply(message):
         bot.send_message(message.chat.id, "Выберите ресторан", reply_markup=markup)
 
 bot.infinity_polling()
+
